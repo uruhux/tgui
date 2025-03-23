@@ -1,4 +1,8 @@
 # app/Dockerfile
+# docker builder prune && docker build . -t tgui
+# docker rm tgui &&  docker run --name tgui -p 8501:8501 -v /opt/dev/tg-gui/streamlit-example:/app:ro tgui
+# 
+#
 
 FROM python:3.9-slim
 
